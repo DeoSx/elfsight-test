@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+div {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 1170px;
+  width: 100%;
+  h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+.main-page {
+  .users {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+.albums {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .album {
+    margin-top: 20px;
+  }
+}
+
+.photos {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

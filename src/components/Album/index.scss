@@ -1,0 +1,30 @@
+.album {
+	width: 320px;
+	border-radius: 16px;
+	border: 1px solid #eff2f9;
+	text-decoration: none;
+	overflow: hidden;
+	transition: 0.3s;
+	cursor: pointer;
+	&:hover {
+		border-color: #2f3b57;
+	}
+	&__image {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 210px;
+		background-color: #eff2f9;
+		i {
+			font-size: 45px;
+			color: #3d42d6;
+		}
+	}
+	&__title {
+		padding-left: 10px;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 24px;
+		color: #2f3b57;
+	}
+}

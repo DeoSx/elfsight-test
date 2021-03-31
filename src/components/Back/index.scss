@@ -1,0 +1,14 @@
+.back {
+  display: flex;
+  width: 70px;
+  align-items: center;
+  text-decoration: none;
+  color: #3d42d6;
+  transition: 0.2s;
+  p {
+    margin-left: 10px;
+  }
+  &:hover {
+    color: #494a77a8;
+  }
+}
